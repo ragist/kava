@@ -1,0 +1,78 @@
+body { font-family: 'Source Sans Pro', sans-serif;}
+
+
+
+
+
+ .nav {
+     width: 100%;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+     background-color: #333;
+
+ }
+
+ .nav ul {
+     list-style-type: none;
+     margin: 0;
+
+     overflow: hidden;
+     
+     float: right;
+ }
+
+ .nav li {
+     display: inline-block;
+     margin: 10px 10px;
+    
+ }
+
+ .nav li a {
+     font-size: 20px;
+     padding:10px;
+    
+
+     color: white;
+     text-align: center;
+
+     text-decoration: none; }
+     
+     .nav li a:hover { background-color: #111;
+        
+     }
+     
+    
+    
+
+ .logo {
+  
+     
+     position:absolute;
+     
+ }
+ .logo img {top:20px;}
+
+
+
+
+ #hero {
+     background-image: url('https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/20597114_496670360672208_2498708692802954920_n.jpg?_nc_cat=0&oh=295f8ec9bdcdb4a8ebc71608673bf55a&oe=5BE9578A');
+
+     background-repeat: no-repeat;
+
+     background-size: cover;
+ }
+ 
+ #about {
+ background-color:#e5d5d5;
+  text-align: center;
+  font-size:30px;
+
+  
+ }
+ 
+ 
+ 
+ 
+
